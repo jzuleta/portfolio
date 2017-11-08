@@ -5,33 +5,62 @@
     <title>Portfolio (DEV)</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/css/app.css" /> </head>
+    <link rel="stylesheet" href="src/css/app.css" />
+    <link rel="stylesheet" href="src/css/bootstrap-overwrite.css" /> </head>
 
 <body>
     <header>
         <nav class="navbar app-border-shadow">
-            <div class="container"> 
+            <div class="container">
                 <a class="navbar-brand"></a>
                 <ul class="nav justify-content-end">
-                    <li class="nav-item"> <a class="nav-link" href="#">Summary</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Experience</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Education</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Skills</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Work</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#/summary">Summary</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#/experience">Experience</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#/education">Education</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#/skills">Skills</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#/work">Work</a> </li>
                 </ul>
             </div>
         </nav>
         <div class="container">
             <div class="row">
-                <div class="col-12">Title</div>    
-                <div class="col-12">Sub Title</div>    
+                <div class="col-12">Title</div>
+                <div class="col-12">Sub Title</div>
             </div>
         </div>
         <main class="header-mask"></main>
         <main class="header-image"></main>
     </header>
-    <div class="main-content container app-border-shadow"></div>
+    <div id="viewer" class="main-content container app-border-shadow"></div>
+    <script type="text/html" id="summary">
+        <div class="row">
+            <div class="col-5 align-self-center d-flex justify-content-center"> <img src="src/images/developer-definition.png" alt=""> </div>
+            <div class="col-7">
+                <h3 class="">Main Title</h3>
+                <p>Phosfluorescently grow functional leadership and just in time communities. Professionally negotiate long-term high-impact intellectual capital.</p>
+                <h3 class="">Main Title</h3>
+                <p>Efficiently customize just in time niche markets through impactful growth strategies. Quickly redefine fully researched mindshare through.</p>
+                <h3 class="">Main Title</h3>
+                <p>Seamlessly benchmark low-risk high-yield systems and high-quality materials. Progressively underwhelm best-of-breed content before unique models. Conveniently visualize go forward initiatives.</p>
+                <h3 class="">Main Title</h3>
+                <p>Phosfluorescently productize goal-oriented leadership skills via cross functional results. Distinctively.</p>
+            </div>
+        </div>
+    </script>
+    <script type="text/html" id="experience">
+        <h1 class="">experience</h1> </script>
+    <script type="text/html" id="education">
+        <h1 class="">education</h1> </script>
+    <script type="text/html" id="skills">
+        <h1 class="">skills</h1> </script>
+    <script type="text/html" id="work">
+        <h1 class="">work</h1> </script>
+    <script type="text/javascript" src="src/js/templates-handler.js"></script>
+    <script type="text/javascript" src="src/js/routes-handler.js"></script>
+    <script type="text/javascript" src="src/js/routes-configuration.js"></script>
 </body>
 
 </html>

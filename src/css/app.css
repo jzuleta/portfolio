@@ -1,58 +1,65 @@
-body{
-    background-color: #FAFAFA;
+body {
+  background-color: #fafafa;
 }
 
-.app-border-shadow{
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+body * {
+  font-family: Roboto, Helvetica, Arial, sans-serif !important;
 }
 
-
-header .navbar{    
-    height: 48px;
-    padding: 0;
-    background-color: #006BBD;
+.app-border-shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
-header .navbar .container{
-    height: 100%;
+header .navbar {
+  height: 48px;
+  padding: 0;
+  background-color: #006bbd;
 }
 
-header .navbar .nav-link{
-    color: white;
-    padding: 0.75rem 1rem;
+header .navbar .container {
+  height: 100%;
 }
 
-header .header-image{
-    background: gray;
-    background-image: url(../images/top-image.jpg);
-    height: 250px;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-    top: 48px;
+header .navbar .nav-link {
+  color: white;
+  padding: 0.75rem 1rem;
 }
 
-header .header-mask{
-    position: absolute;
-    height: 250px;
-    width: 100%;
-    top: 48px;
-    background: gray;
-    z-index: 0;
-    opacity: 0.5;
+header .header-image {
+  background: gray;
+  background-image: url(../images/top-image.jpg);
+  height: 250px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 48px;
 }
 
-header .navbar-brand{
-    background-image: url(../images/top-icon.png);
-    height: 40px;
-    width: 40px;
-    background-repeat: no-repeat;
-    background-position: center center;
+header .header-mask {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  top: 48px;
+  background: gray;
+  z-index: 0;
+  opacity: 0.5;
 }
 
-.main-content{
-    background-color: white;
-    min-height: 500px;
-    margin-top: 115px;
-    position: relative; 
+header .navbar-brand {
+  background-image: url(../images/top-icon.png);
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main-content {
+  background-color: white;
+  min-height: 300px;
+  margin-top: 115px;
+  position: relative;
+  padding: 24px 16px;
+  margin-bottom: 24px;
+  border-radius: 3px;
 }
