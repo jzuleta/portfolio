@@ -1,9 +1,19 @@
+.animation-fix {
+  -webkit-transition-duration: 400ms, 400ms;
+          transition-duration: 400ms, 400ms;
+  -webkit-transition-timing-function: ease-out, ease-out;
+          transition-timing-function: ease-out, ease-out;
+  -webkit-transition-delay: 100ms, 100ms;
+          transition-delay: 100ms, 100ms;
+}
+
 body {
   background-color: #fafafa;
+  overflow-y: scroll;
 }
 
 body * {
-  font-family: Roboto, Helvetica, Arial, sans-serif !important;
+  font-family: 'Roboto', sans-serif;  
 }
 
 .app-border-shadow {
@@ -14,7 +24,8 @@ body * {
 header .navbar {
   height: 48px;
   padding: 0;
-  background-color: #006bbd;
+  background-color: #263B4B;
+  z-index: 1;
 }
 
 header .navbar .container {
@@ -29,19 +40,19 @@ header .navbar .nav-link {
 header .header-image {
   background: gray;
   background-image: url(../images/top-image.jpg);
-  height: 250px;
+  height: 298px;
   position: absolute;
   width: 100%;
   z-index: -1;
-  top: 48px;
+  top: 0;
 }
 
 header .header-mask {
   position: absolute;
-  height: 250px;
+  height: 298px;
   width: 100%;
-  top: 48px;
-  background: gray;
+  top: 0;
+  background:#263B4B;
   z-index: 0;
   opacity: 0.5;
 }
@@ -59,7 +70,33 @@ header .navbar-brand {
   min-height: 300px;
   margin-top: 115px;
   position: relative;
-  padding: 24px 16px;
   margin-bottom: 24px;
   border-radius: 3px;
 }
+
+.top-subject-content {
+  padding: 24px 20px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.top-subject-content h3{
+  font-size: 24px;
+}
+
+.top-subject-content p{
+  font-size: 16px;
+}
+
+.back-color-blue{  background: #039BE5;}
+
+.back-color-green{  background: #7CB342;}
+
+.back-color-lime{  background: #C0CA33;}
+
+.back-color-red{  background: #EF5350;}
+
+.back-color-purple{  background: #9C27B0;}
+
+.color-white * { color: white; }
+
