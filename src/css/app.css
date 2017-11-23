@@ -13,7 +13,8 @@ body {
 }
 
 body * {
-  font-family: 'Roboto', sans-serif;  
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  ;  
 }
 
 .app-border-shadow {
@@ -67,7 +68,6 @@ header .navbar-brand {
 
 .main-content {
   background-color: white;
-  min-height: 300px;
   margin-top: 115px;
   position: relative;
   margin-bottom: 24px;
@@ -86,6 +86,74 @@ header .navbar-brand {
 
 .top-subject-content p{
   font-size: 16px;
+}
+
+.time-line{
+  border-left: thin solid #E0E0E0;
+  position: absolute;
+  right: 22px;
+  height: 110% !important;
+}
+
+.time-line-step{
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  background: white;
+  border: 2px solid red;
+  z-index: 58;
+  position: absolute;
+  right: 15px;
+  top: 22px;
+}
+.experience-panel{
+  margin-bottom: 16px;
+}
+
+.experience-content{
+  padding: 0 0;  
+}
+
+.experience-card{
+  background: white;
+  padding-top: 16px;
+}
+
+.experience-card div{
+  padding: 0 24px;
+}
+
+.experience-title{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.experience-subtitle{
+  font-weight: 300;
+  font-size: 18px;
+  color: #757575;
+  margin-top: -3px;
+  margin-bottom: 8px;
+}
+
+.technology-label{
+  color: white;
+  background-color: #5BA1F3;
+  padding: 1px 8px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.experience-action{
+  background-color: #F4F6F8;
+  padding: 8px 24px !important;
+  border-top: thin solid #E0E0E0;
+  margin-top: 16px;
+}
+
+.experience-detail{
+  display: none;
 }
 
 .back-color-blue{  background: #039BE5;}
