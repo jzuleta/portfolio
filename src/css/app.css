@@ -1,10 +1,10 @@
 .animation-fix {
   -webkit-transition-duration: 400ms, 400ms;
-          transition-duration: 400ms, 400ms;
+  transition-duration: 400ms, 400ms;
   -webkit-transition-timing-function: ease-out, ease-out;
-          transition-timing-function: ease-out, ease-out;
+  transition-timing-function: ease-out, ease-out;
   -webkit-transition-delay: 100ms, 100ms;
-          transition-delay: 100ms, 100ms;
+  transition-delay: 100ms, 100ms;
 }
 
 body {
@@ -14,12 +14,11 @@ body {
 
 body * {
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  ;  
+  ;
 }
 
 .app-border-shadow {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 header .navbar {
@@ -53,7 +52,7 @@ header .header-mask {
   height: 298px;
   width: 100%;
   top: 0;
-  background:#263B4B;
+  background: #263B4B;
   z-index: 0;
   opacity: 0.5;
 }
@@ -75,96 +74,131 @@ header .navbar-brand {
 }
 
 .top-subject-content {
-  padding: 24px 20px;
+  padding: 20px 20px 12px 20px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
 
-.top-subject-content h3{
+.top-subject-content h3 {
   font-size: 24px;
 }
 
-.top-subject-content p{
+.top-subject-content p {
   font-size: 16px;
 }
 
-.time-line{
+.time-line {
   border-left: thin solid #E0E0E0;
   position: absolute;
   right: 22px;
   height: 110% !important;
 }
 
-.time-line-step{
+.time-line-step {
   border-radius: 50%;
-  height: 14px;
-  width: 14px;
-  background: white;
-  border: 2px solid red;
+  height: 16px;
+  width: 16px;
+  background: #FAFAFA;
+  border: 2px solid #5BA1F3;
   z-index: 58;
   position: absolute;
-  right: 15px;
+  right: 14px;
   top: 22px;
 }
-.experience-panel{
+
+.experience-panel {
   margin-bottom: 16px;
 }
 
-.experience-content{
-  padding: 0 0;  
+.experience-content {
+  padding: 0 0;
 }
 
-.experience-card{
+.experience-card {
   background: white;
   padding-top: 16px;
+  brborder-radius: 3px;
 }
 
-.experience-card div{
+.fix-padding {
   padding: 0 24px;
 }
 
-.experience-title{
+.experience-label {
+  background: #E9ECF2;
+  padding: 0 8px !important;
+  margin-right: 16px;
+  font-size: 13px;
   font-weight: 400;
+  margin-top: 6px;
+}
+
+.experience-title {
+  font-weight: 300;
   font-size: 18px;
 }
 
-.experience-subtitle{
-  font-weight: 300;
-  font-size: 18px;
+.experience-subtitle {
+  font-weight: 400;
+  font-size: 16px;
   color: #757575;
   margin-top: -3px;
   margin-bottom: 8px;
 }
 
-.technology-label{
+.technology-label {
   color: white;
   background-color: #5BA1F3;
   padding: 1px 8px;
   border-radius: 3px;
   font-size: 14px;
   font-weight: 300;
+  
+  
 }
 
-.experience-action{
+.experience-action {
   background-color: #F4F6F8;
   padding: 8px 24px !important;
-  border-top: thin solid #E0E0E0;
   margin-top: 16px;
+  font-size: 14px;
 }
 
-.experience-detail{
-  display: none;
+.experience-definition {
+  border-left: thin solid #E0E0E0;
 }
 
-.back-color-blue{  background: #039BE5;}
+.experience-detail {
+  padding: 16px;
+}
 
-.back-color-green{  background: #7CB342;}
+.experience-description {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 12px 0 12px 0;
+  padding-right: 24px;
+}
 
-.back-color-lime{  background: #C0CA33;}
+.back-color-blue {
+  background: #039BE5;
+}
 
-.back-color-red{  background: #EF5350;}
+.back-color-green {
+  background: #7CB342;
+}
 
-.back-color-purple{  background: #9C27B0;}
+.back-color-lime {
+  background: #C0CA33;
+}
 
-.color-white * { color: white; }
+.back-color-red {
+  background: #EF5350;
+}
 
+.back-color-purple {
+  background: #9C27B0;
+}
+
+.color-white * {
+  color: white;
+}
