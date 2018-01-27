@@ -10,3 +10,13 @@ p{
     font-size: 16px;
     line-height: 24px;
 }
+
+.progress{
+    height: 9px;
+    border-radius: 6px;
+    background: #E6EAED;
+}
+
+.progress-bar{
+    background-color: #2096F2;
+}

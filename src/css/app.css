@@ -202,3 +202,45 @@ header .navbar-brand {
 .color-white * {
   color: white;
 }
+
+.skill-panel{
+  padding: 16px 0
+}
+
+.skill-panel h3{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.skill-panel .row{
+  margin: 0;
+}
+.skill-panel.front-end{
+  background: #F8F8F8;
+}
+
+.skill-panel.back-end{
+  
+}
+
+.top-skill-definition{
+  font-size: 14px;
+    line-height: 17px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.skill-content{
+  margin-top: 8px;
+}
+
+.skill-title{
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.center-skill{
+  border-left: thin solid #E0E0E0;
+    border-right: thin solid #E0E0E0;
+}
